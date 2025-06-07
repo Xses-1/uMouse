@@ -1,0 +1,85 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f8efc37a-51ae-45fa-a390-12fd30ba211d")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "button"
+		(shape output)
+		(at 121.92 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2e77988c-5ee4-4f40-8dde-95b526ba819a")
+	)
+	(hierarchical_label "config{config}"
+		(shape output)
+		(at 116.84 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "56dd0092-2d4f-4c66-81b4-7d4a9d4b24a9")
+	)
+	(hierarchical_label "debug_uart{uart}"
+		(shape bidirectional)
+		(at 116.84 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "59b753de-c76f-4061-aa88-8693c8075ac4")
+	)
+	(hierarchical_label "led_g_pwm"
+		(shape input)
+		(at 121.92 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "94e3ea78-4484-4c2a-8a6f-77b5730ed609")
+	)
+	(hierarchical_label "led_b_pwm"
+		(shape input)
+		(at 121.92 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c64a4a02-e14c-447f-9da8-4abdaad842e7")
+	)
+	(hierarchical_label "STLink{st_link}"
+		(shape bidirectional)
+		(at 132.08 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf48367d-9729-431b-8e73-9c195b467b31")
+	)
+	(hierarchical_label "led_r_pwm"
+		(shape input)
+		(at 121.92 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec850ee5-d769-478d-ac38-f9c4d069968d")
+	)
+)

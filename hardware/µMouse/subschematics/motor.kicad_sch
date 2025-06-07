@@ -1,0 +1,41 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "1bdcdbb5-37db-48ea-ae25-662314ea9d80")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "motor_direction"
+		(shape input)
+		(at 124.46 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e3e888a-078a-49fd-afb1-6ac4fa17ef99")
+	)
+	(hierarchical_label "motor_encoder"
+		(shape output)
+		(at 124.46 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c50f38c-78ab-41f0-84f8-969bd688fb08")
+	)
+	(hierarchical_label "motor_input"
+		(shape input)
+		(at 123.19 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "99139343-137e-46b8-b41c-cdb8e2335072")
+	)
+)

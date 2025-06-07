@@ -1,0 +1,52 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "733ca0e7-44cd-43b7-9058-c106b9b5b11d")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "expansion_i2c{i2c}"
+		(shape bidirectional)
+		(at 130.81 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "757a084b-944f-4653-b068-420e0a1208df")
+	)
+	(hierarchical_label "expansion_spi{spi}"
+		(shape bidirectional)
+		(at 130.81 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "987d50f1-78d1-470d-9537-42100540fb5a")
+	)
+	(hierarchical_label "gpio{gpio}"
+		(shape bidirectional)
+		(at 130.81 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3a1ce66-9e18-43be-9cb1-6d644c771e08")
+	)
+	(hierarchical_label "expansion_uart{uart}"
+		(shape bidirectional)
+		(at 130.81 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea812297-fcd2-429a-8223-c21df0dbeedc")
+	)
+)

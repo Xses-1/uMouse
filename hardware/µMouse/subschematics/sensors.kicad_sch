@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "7f32b989-ea98-4617-b030-307e271dac28")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "Distance_Sensors{sensors}"
+		(shape output)
+		(at 139.7 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "963bb95b-c244-47e6-a873-a674c5a37fab")
+	)
+)

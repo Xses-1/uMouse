@@ -1,0 +1,206 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "daaff333-2869-4db2-910b-a6d28fd33b36")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "led_r_pwm"
+		(shape output)
+		(at 96.52 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0fbe4b13-b5c3-42af-9ce3-ee6abffcd188")
+	)
+	(hierarchical_label "expansion_spi{spi}"
+		(shape bidirectional)
+		(at 168.91 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "144995d4-31a9-452e-a70c-0014c7a0a55a")
+	)
+	(hierarchical_label "expansion_i2c{i2c}"
+		(shape bidirectional)
+		(at 168.91 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "370dedc1-af2d-4bba-87f0-6e3622eeced4")
+	)
+	(hierarchical_label "motor_input.r"
+		(shape output)
+		(at 171.45 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38cf2360-44e2-4f80-9e79-07fea1d2076e")
+	)
+	(hierarchical_label "motor_direction.l"
+		(shape output)
+		(at 170.18 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a1d7dbc-2643-459e-a08f-7bafcb17319a")
+	)
+	(hierarchical_label "debug_uart{uart}"
+		(shape bidirectional)
+		(at 97.79 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e324888-b713-42d3-a7e5-89585db39944")
+	)
+	(hierarchical_label "motor_direction.r"
+		(shape output)
+		(at 172.72 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86141d89-01af-4698-92fb-156c4fc906da")
+	)
+	(hierarchical_label "motor_encoder.l"
+		(shape input)
+		(at 171.45 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b35a9cf-d317-41e5-af4d-2a052c30bfa4")
+	)
+	(hierarchical_label "led_g_pwm"
+		(shape output)
+		(at 96.52 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97d91059-3d6d-4693-bc58-e10894705af6")
+	)
+	(hierarchical_label "gpio{gpio}"
+		(shape bidirectional)
+		(at 168.91 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e3a8c69-885c-4328-9d35-d9e53f418eb5")
+	)
+	(hierarchical_label "led_b_pwm"
+		(shape output)
+		(at 96.52 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d2f4019f-1c85-4ab1-87f5-460cb760a14a")
+	)
+	(hierarchical_label "fan_pwm"
+		(shape output)
+		(at 149.86 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3c9ed9e-d8f4-4383-a215-a2b9bd1cdc20")
+	)
+	(hierarchical_label "button"
+		(shape input)
+		(at 96.52 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d6b2241d-1542-4c2e-8176-296ca8c5c07e")
+	)
+	(hierarchical_label "config{config}"
+		(shape input)
+		(at 91.44 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de50ec97-faa8-4143-85ea-e75fe6a65553")
+	)
+	(hierarchical_label "motor_input.l"
+		(shape output)
+		(at 170.18 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e664a737-fd11-4b69-95a9-19b855c63e79")
+	)
+	(hierarchical_label "motor_encoder.r"
+		(shape input)
+		(at 172.72 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f22a0005-0f88-470a-a980-f61ce1923aac")
+	)
+	(hierarchical_label "expansion_uart{uart}"
+		(shape bidirectional)
+		(at 168.91 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f73ba433-7c7a-412c-b9aa-4eba8b7e9c7d")
+	)
+	(hierarchical_label "STLink{st_link}"
+		(shape bidirectional)
+		(at 96.52 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fff86011-d492-4723-81ae-7653e9f1828b")
+	)
+)

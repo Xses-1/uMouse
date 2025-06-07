@@ -1,0 +1,901 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "3c62a891-8863-466e-8190-19a2bda18860")
+	(paper "A4")
+	(lib_symbols)
+	(bus_alias "config"
+		(members)
+	)
+	(bus_alias "sensors"
+		(members "sensor1" "sensor2" "sensor3" "sensor4" "sensor5" "sensor6" "sensor7")
+	)
+	(wire
+		(pts
+			(xy 172.72 106.68) (xy 187.96 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06e571b9-1626-47e0-a23b-f9aa7964344a")
+	)
+	(wire
+		(pts
+			(xy 133.35 118.11) (xy 133.35 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0968524e-93c2-427f-9263-9f43e0daebed")
+	)
+	(bus
+		(pts
+			(xy 149.86 118.11) (xy 149.86 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aad5251-3c8c-471f-ab1a-78baf9e60867")
+	)
+	(wire
+		(pts
+			(xy 135.89 118.11) (xy 135.89 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13b1c418-8921-4450-9644-e30182b827be")
+	)
+	(wire
+		(pts
+			(xy 172.72 77.47) (xy 187.96 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17870f6f-236e-4418-a425-051017c9383e")
+	)
+	(wire
+		(pts
+			(xy 139.7 118.11) (xy 139.7 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eb4b318-eb57-4c0f-a5e3-d783bc46f7a3")
+	)
+	(wire
+		(pts
+			(xy 130.81 118.11) (xy 130.81 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22326c48-044e-4757-8f13-6bc96eac8edd")
+	)
+	(wire
+		(pts
+			(xy 172.72 109.22) (xy 187.96 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fabb15a-54cd-472b-b12a-0181a3e0c4c8")
+	)
+	(wire
+		(pts
+			(xy 93.98 111.76) (xy 109.22 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b1abda9-5e1d-43ed-abe8-58d0e9d7ff04")
+	)
+	(bus
+		(pts
+			(xy 124.46 118.11) (xy 124.46 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d3bd0c-2af7-4e48-b9b7-cd6fcfbb3eab")
+	)
+	(wire
+		(pts
+			(xy 172.72 80.01) (xy 187.96 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5619e81c-916c-445d-837d-ab49ad3720f8")
+	)
+	(bus
+		(pts
+			(xy 147.32 58.42) (xy 147.32 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63cea41d-f408-4c3b-8354-d773a5a8ed78")
+	)
+	(wire
+		(pts
+			(xy 172.72 104.14) (xy 187.96 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "886da8b5-1193-4bc5-8b5a-4364d06be832")
+	)
+	(bus
+		(pts
+			(xy 93.98 83.82) (xy 109.22 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "897d72c0-933f-449d-b2e1-dd6007ac03bd")
+	)
+	(bus
+		(pts
+			(xy 144.78 58.42) (xy 144.78 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d8f3c1d-2e9f-4052-a8a6-d66af63d3bf9")
+	)
+	(bus
+		(pts
+			(xy 142.24 58.42) (xy 142.24 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f76d688f-7725-4618-a9a9-26137f3da939")
+	)
+	(bus
+		(pts
+			(xy 147.32 118.11) (xy 147.32 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f84e6937-394f-4d8b-a852-6295b8d67e98")
+	)
+	(wire
+		(pts
+			(xy 172.72 82.55) (xy 187.96 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc9a5a4f-caca-49db-84fe-98140fecbb5c")
+	)
+	(bus
+		(pts
+			(xy 149.86 58.42) (xy 149.86 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff2d91e6-04ef-4e43-b775-493767dd54ae")
+	)
+	(sheet
+		(at 46.99 104.14)
+		(size 46.99 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "31228238-3449-4aa3-9d27-95de311d5aed")
+		(property "Sheetname" "Suction Fan"
+			(at 46.99 103.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "subschematics/fan.kicad_sch"
+			(at 46.99 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "fan_pwm" input
+			(at 93.98 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a67dd16f-e70e-47c0-af49-63602e15384d")
+		)
+		(instances
+			(project "µMouse"
+				(path "/3c62a891-8863-466e-8190-19a2bda18860"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 27.94)
+		(size 63.5 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3457b899-9e5c-4e63-aa11-358a50e1625e")
+		(property "Sheetname" "Expansion"
+			(at 109.22 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "subschematics/expansion.kicad_sch"
+			(at 109.22 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "gpio{gpio}" bidirectional
+			(at 149.86 58.42 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "20308992-28dc-422f-81ce-67cf8a9e9013")
+		)
+		(pin "expansion_uart{uart}" bidirectional
+			(at 147.32 58.42 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "afc64c9b-ddd8-46a0-86c9-d6c2a6e39885")
+		)
+		(pin "expansion_i2c{i2c}" bidirectional
+			(at 142.24 58.42 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "699a25d2-16f4-4b49-996a-a73c65352a03")
+		)
+		(pin "expansion_spi{spi}" bidirectional
+			(at 144.78 58.42 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "efc498b9-856b-4932-8f50-69f8d526735c")
+		)
+		(instances
+			(project "µMouse"
+				(path "/3c62a891-8863-466e-8190-19a2bda18860"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 68.58)
+		(size 63.5 49.53)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "56ae1f4c-79d6-457b-8d25-514507f0f5ea")
+		(property "Sheetname" "µController"
+			(at 109.22 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "subschematics/µcontroller.kicad_sch"
+			(at 109.22 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "motor_encoder.l" input
+			(at 172.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "16bb7387-783c-4e2c-a485-fd4baf0f4a2c")
+		)
+		(pin "motor_input.l" output
+			(at 172.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "59a074b7-0097-406a-8181-90c95103f71d")
+		)
+		(pin "motor_encoder.r" input
+			(at 172.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "11410484-8715-4359-94eb-4b29409e2c03")
+		)
+		(pin "motor_input.r" output
+			(at 172.72 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8f9c31fa-e76b-488c-8fa5-4bcb29d45135")
+		)
+		(pin "fan_pwm" output
+			(at 109.22 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7e5f51f8-7990-4f3f-97cf-b614ad8be93c")
+		)
+		(pin "motor_direction.l" output
+			(at 172.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "03aa4214-ff3e-4719-9c93-5829e30098fe")
+		)
+		(pin "motor_direction.r" output
+			(at 172.72 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "32d2e4f7-e517-4d27-ad13-d2e3d77a8c49")
+		)
+		(pin "button" input
+			(at 139.7 118.11 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "617dfdc2-b116-486b-9a09-8afd0c2f968f")
+		)
+		(pin "led_r_pwm" output
+			(at 135.89 118.11 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cf806c4e-1a93-4156-9f66-6e421f0f5da4")
+		)
+		(pin "led_g_pwm" output
+			(at 133.35 118.11 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "550bff9f-37fa-44db-ac98-12a7543cbf1c")
+		)
+		(pin "led_b_pwm" output
+			(at 130.81 118.11 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e441d45e-e9b2-43df-9065-db6ddb78836c")
+		)
+		(pin "config{config}" input
+			(at 124.46 118.11 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "26ef0b1d-7dc7-4cfe-946b-d27743028b84")
+		)
+		(pin "STLink{st_link}" bidirectional
+			(at 147.32 118.11 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7c386b0d-c591-4599-8d77-86020937f357")
+		)
+		(pin "Distance_Sensors{sensors}" input
+			(at 109.22 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aa930b32-9140-4d89-a140-473fde7cbceb")
+		)
+		(pin "debug_uart{uart}" bidirectional
+			(at 149.86 118.11 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3f6de231-6c62-49f4-adac-f970d084098f")
+		)
+		(pin "gpio{gpio}" bidirectional
+			(at 149.86 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "24982af0-1f68-410f-88ad-03b42b5c8740")
+		)
+		(pin "expansion_uart{uart}" bidirectional
+			(at 147.32 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c836d04a-0120-490b-bf54-5972fbf352bb")
+		)
+		(pin "expansion_spi{spi}" bidirectional
+			(at 144.78 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8d683cb7-1cec-4bf0-b358-f731fc46e349")
+		)
+		(pin "expansion_i2c{i2c}" bidirectional
+			(at 142.24 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0681f581-71a8-4164-a84d-b9e47d4e3d09")
+		)
+		(instances
+			(project "µMouse"
+				(path "/3c62a891-8863-466e-8190-19a2bda18860"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 46.99 68.58)
+		(size 46.99 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "58e14703-59d8-4477-8312-094fdeb006e4")
+		(property "Sheetname" "Senors"
+			(at 46.99 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "subschematics/sensors.kicad_sch"
+			(at 46.99 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "Distance_Sensors{sensors}" output
+			(at 93.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1cbf7762-8346-456a-8070-d9fcd632d473")
+		)
+		(instances
+			(project "µMouse"
+				(path "/3c62a891-8863-466e-8190-19a2bda18860"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 68.58)
+		(size 54.61 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8cc544a1-d412-46af-9750-451fa58f2b37")
+		(property "Sheetname" "Motor L"
+			(at 187.96 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "subschematics/motor.kicad_sch"
+			(at 187.96 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "motor_encoder" output
+			(at 187.96 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7ae0dd95-89a6-4b58-a65c-4a376ff298cb")
+		)
+		(pin "motor_input" input
+			(at 187.96 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d542822c-64c1-42fc-be1e-50fbad33af7a")
+		)
+		(pin "motor_direction" input
+			(at 187.96 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ea8eda73-e9d3-43b5-9769-1befd50ad015")
+		)
+		(instances
+			(project "µMouse"
+				(path "/3c62a891-8863-466e-8190-19a2bda18860"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 95.25)
+		(size 54.61 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9257cab7-21c5-42b0-aa77-a797ab8818cb")
+		(property "Sheetname" "Motor R"
+			(at 187.96 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "subschematics/motor.kicad_sch"
+			(at 187.96 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "motor_encoder" output
+			(at 187.96 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "23e03294-90bb-496f-b1e7-aaea94cac4f6")
+		)
+		(pin "motor_input" input
+			(at 187.96 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "57d72be6-78f0-4b53-9371-97082a993278")
+		)
+		(pin "motor_direction" input
+			(at 187.96 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ae6bcec4-9d41-4319-b50b-7e32df1463f4")
+		)
+		(instances
+			(project "µMouse"
+				(path "/3c62a891-8863-466e-8190-19a2bda18860"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 142.24)
+		(size 52.07 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f5b179b0-c233-4b3c-97ca-fc425d5df3b3")
+		(property "Sheetname" "PSUs"
+			(at 26.67 141.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "subschematics/power.kicad_sch"
+			(at 26.67 172.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "µMouse"
+				(path "/3c62a891-8863-466e-8190-19a2bda18860"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 128.27)
+		(size 63.5 34.29)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f8d36680-f3c6-4fe1-ac1d-586f2660ef54")
+		(property "Sheetname" "IO"
+			(at 109.22 127.5584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "subschematics/io.kicad_sch"
+			(at 109.22 163.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "led_b_pwm" input
+			(at 130.81 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "836bc86e-b93d-45c9-81b8-1dba6e6f2ded")
+		)
+		(pin "button" output
+			(at 139.7 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5a51920f-23e7-40b8-9e9c-cd62fbd96cba")
+		)
+		(pin "led_g_pwm" input
+			(at 133.35 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0dd5b17b-8ca8-44d7-9aac-2898b80046a6")
+		)
+		(pin "led_r_pwm" input
+			(at 135.89 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "29804152-16a1-4194-9145-18f91d370240")
+		)
+		(pin "config{config}" output
+			(at 124.46 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "97ead708-23bc-4378-be78-b2a6978aec65")
+		)
+		(pin "STLink{st_link}" bidirectional
+			(at 147.32 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "20b8da7d-785c-463f-9041-f812696ce3da")
+		)
+		(pin "debug_uart{uart}" bidirectional
+			(at 149.86 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "10c73f94-7ffc-4ffe-8f4c-d2037b8654b9")
+		)
+		(instances
+			(project "µMouse"
+				(path "/3c62a891-8863-466e-8190-19a2bda18860"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
